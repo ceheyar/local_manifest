@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+    <!-- Remote -->
+    <remote name="ceheyar" fetch="https://github.com/ceheyar" clone-depth="1" />
+    <!-- Tree -->
+    <project path="device/realme/RMX1801" name="android_device_realme_2PRO" remote="ceheyar" revision="lineage-18.1-wip" />
+    <project path="vendor/realme/RMX1801" name="android_vendor_realme_2PRO" remote="ceheyar" revision="lineage-18.1" />
+    <project path="kernel/realme/sdm660" name="android_kernel_realme_2PRO" remote="ceheyar" revision="4.4.302-LA.UM.9.2.c25-02200" />
+    <!-- Extra -->
+    <!-- <remove-project name="LineageOS/android_vendor_lineage"/>
+    <project path="vendor/lineage" name="android_vendor_lineage" remote="ceheyar" revision="lineage-18.1"/> -->
+</manifest>
